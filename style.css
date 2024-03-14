@@ -1,64 +1,73 @@
+@media only screen and (max-device-width: 900px) {
+  #Portifolio {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
 #Portfolio {
-    width: 210mm;
-    height: 297mm; 
-    position: relative;
-    margin: auto;
-    background-color: #002506;
-    color: #fff;
-    
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  margin: auto;
+  background-color: #002506;
+  color: #fff;
+
 }
 
 
 .page {
-    display: none;
-    user-select:none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transition: transform 1s;
-    
-    
+  display: none;
+  user-select: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+
+
 }
 
-.page.active  {
-    display: block;
-  
-    
-    
+.page.active {
+  display: block;
+
+
+
 }
 
 
 
 
 #capa .text {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    position: absolute;
-    left: -150px;
-    top: -160px;
-    color: #fff;
-    font-size: 70px;
-    word-wrap:break-word;
-    margin: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  left: -150px;
+  top: -160px;
+  color: #fff;
+  font-size: 70px;
+  word-wrap: break-word;
+  margin: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
 
 }
 
-#img-capa{
+#img-capa {
 
   position: absolute;
   left: 25%;
   width: 580px;
   height: 736px;
   top: 2%;
-  
-  
+
+
 
 }
 
-#img-capa1{
+#img-capa1 {
 
   position: absolute;
   left: 4%;
@@ -66,18 +75,18 @@
   height: 310px;
   top: 70%;
 
-  
+
 
 }
 
-#img-pg1-1{
+#img-pg1-1 {
 
   position: absolute;
   left: 25%;
   width: 580px;
   height: 890px;
   top: 2%;
-  
+
 
 }
 
@@ -90,7 +99,7 @@ h2 {
   left: 120px;
   top: -80px;
   font-size: 64px;
-  word-wrap:normal;
+  word-wrap: normal;
   margin: 100px;
 }
 
@@ -99,35 +108,36 @@ h3 {
   left: 600px;
   top: 560px;
   font-size: 64px;
-  word-wrap:normal;
+  word-wrap: normal;
 }
 
-p{
+p {
   position: absolute;
   left: 400px;
   top: 800px;
   font-size: 30px;
-  word-wrap:normal;
+  word-wrap: normal;
   width: 400px;
 }
 
-.p{
+.p {
   position: absolute;
   left: 600px;
   top: 1050px;
   font-size: 20px;
-  word-wrap:normal;
-  
+  word-wrap: normal;
+
 }
 
-.line1{ 
+.line1 {
   position: absolute;
   top: 98%;
   background: #fff;
   width: 210mm;
   height: 2px;
 }
-.line2{ 
+
+.line2 {
   position: absolute;
   top: 2%;
   background: #fff;
@@ -135,7 +145,7 @@ p{
   height: 2px;
 }
 
-.line3{
+.line3 {
   position: absolute;
   left: 2%;
   background: #fff;
@@ -143,7 +153,7 @@ p{
   height: 297mm;
 }
 
-.line4{
+.line4 {
   position: absolute;
   left: 98%;
   background: #fff;
@@ -151,7 +161,7 @@ p{
   height: 297mm;
 }
 
-.line5{
+.line5 {
   position: absolute;
   top: 68%;
   background: #fff;
@@ -159,7 +169,7 @@ p{
   height: 2px;
 }
 
-.line6{
+.line6 {
   position: absolute;
   top: 70%;
   background: #fff;
@@ -167,7 +177,7 @@ p{
   height: 2px;
 }
 
-.line7{
+.line7 {
   position: absolute;
   left: 20%;
   background: #fff;
@@ -175,7 +185,7 @@ p{
   height: 202mm;
 }
 
-.line8{
+.line8 {
   position: absolute;
   left: 23%;
   background: #fff;
@@ -184,34 +194,34 @@ p{
 }
 
 
-#pg1{
+#pg1 {
   background: #00420b;
-  
+
 }
 
-#pg1 h1{
+#pg1 h1 {
   position: absolute;
   font-size: 135px;
   transform: rotate(-90deg);
   top: 35%;
   left: -52%;
-  user-select:none;
-  
+  user-select: none;
+
 }
 
-#pg1 h2{
+#pg1 h2 {
   position: absolute;
   font-size: 40px;
   top: 75%;
   left: 20%;
-  word-wrap:normal;
+  word-wrap: normal;
   width: 120px;
-  user-select:none;
+  user-select: none;
 
 }
 
-.line9{
-  
+.line9 {
+
   position: absolute;
   background: #fff;
   width: 2px;
@@ -220,8 +230,8 @@ p{
 
 }
 
-.line10{
-  
+.line10 {
+
   position: absolute;
   background: #fff;
   width: 2px;
@@ -230,41 +240,41 @@ p{
 
 }
 
-.line11{
-  
+.line11 {
+
   position: absolute;
   background: #fff;
   width: 175mm;
   height: 2px;
-  top:98%;
+  top: 98%;
   left: 22%;
 
 }
 
-.line12{
-  
+.line12 {
+
   position: absolute;
   background: #fff;
   width: 175mm;
   height: 2px;
-  top:83%;
+  top: 83%;
   left: 22%;
 
 }
 
-.line13{
-  
+.line13 {
+
   position: absolute;
   background: #fff;
   width: 175mm;
   height: 2px;
-  top:81%;
+  top: 81%;
   left: 22%;
 
 }
 
-.line14{
-  
+.line14 {
+
   position: absolute;
   background: #fff;
   width: 2px;
@@ -272,8 +282,9 @@ p{
   left: 22%;
 
 }
-.line15{
-  
+
+.line15 {
+
   position: absolute;
   background: #fff;
   width: 2px;
@@ -282,14 +293,14 @@ p{
 
 }
 
-.line16{
-  
+.line16 {
+
   position: absolute;
   background: #fff;
   width: 210mm;
   height: 2px;
-  top:2%;
-  
+  top: 2%;
+
 
 }
 
@@ -298,17 +309,17 @@ p{
 
 
 
-#pg2{
+#pg2 {
   background: #00420b;
 }
 
 #pg2 h1 {
 
-    position: absolute;
-    font-size: 48px;
-    top: 0.5%;
-    left: 2%;
-    
+  position: absolute;
+  font-size: 48px;
+  top: 0.5%;
+  left: 2%;
+
 
 
 }
@@ -323,7 +334,7 @@ p{
 
 
 
-.buttomd{
+.buttomd {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -333,12 +344,12 @@ p{
   background-image: url('midia/buttom.png');
   background-repeat: no-repeat;
   background-size: contain;
-  
-  
-  
+
+
+
 }
 
-.buttome{
+.buttome {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -348,18 +359,19 @@ p{
   background-image: url('midia/buttom\(1\).png');
   background-repeat: no-repeat;
   background-size: contain;
- 
+
 
 }
 
 
 
 button {
-  
+
   border-radius: 100%;
 
 }
-  .buttome:hover {
+
+.buttome:hover {
   background: #002506;
   background-image: url('midia/buttom\(1\).png');
   background-size: contain;
@@ -368,7 +380,7 @@ button {
   width: 55px;
   height: 55px;
   transition: 0.5s;
- 
+
 
 }
 
@@ -381,22 +393,24 @@ button {
   width: 55px;
   height: 55px;
   transition: 0.5s;
- 
+
 
 }
 
 
-#imagem {
+#imagem-certificados {
   transition: opacity 0.2s ease-in-out;
   opacity: 1;
   width: 318px;
   height: 538px;
   background-repeat: no-repeat;
-  background-size: contain; /* Modificado aqui */
+  background-size: contain;
+  /* Modificado aqui */
   background-image: url('midia/pg3/certificados_Naza_Cunha/img-certificados-1.jpg');
   background-image: url('midia/pg3/certificados_Naza_Cunha/img-certificados-2.jpg');
   background-image: url('midia/pg3/certificados_Naza_Cunha/img-certificados-3.jpg');
 
+  background-image: url('midia/pg3/ctd-cadastro pessoa juridica-pg2.jpeg');
 
 
 }
@@ -404,6 +418,7 @@ button {
 .hidden {
   opacity: 0;
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -415,26 +430,26 @@ button {
 }
 
 
-#pg2 h2{
+#pg2 h2 {
 
   position: absolute;
   width: 423px;
   height: 228px;
-  word-wrap:normal;
+  word-wrap: normal;
   font-size: 20px;
   top: 55%;
   left: 35%;
-  
+
 
 }
 
-#bola-perfil{
+#bola-perfil {
 
   position: absolute;
   width: 184px;
   height: 184px;
   top: 64%;
-  
+
 
 
 
@@ -442,17 +457,17 @@ button {
 
 #bola-perfil p {
 
- position: absolute;
- top: 90%;
- left: 10%;
+  position: absolute;
+  top: 90%;
+  left: 10%;
 
 }
 
-.naza-perfil{
+.naza-perfil {
 
   position: absolute;
   width: 100px;
-  height: 100px; 
+  height: 100px;
   border-radius: 50%;
   left: 5%;
   background-image: url("midia/pg3/naza-pg3.png");
@@ -463,11 +478,11 @@ button {
 
 .box-video {
   position: absolute;
-  top: 5%; 
-  left: 46.5%; 
-  width: 410px; 
-  height: 590px; 
-  
+  top: 5%;
+  left: 46.5%;
+  width: 410px;
+  height: 590px;
+
 }
 
 #myVideo {
@@ -476,7 +491,7 @@ button {
   object-fit: cover;
 }
 
-.line17{
+.line17 {
 
   position: absolute;
   width: 210mm;
@@ -486,7 +501,7 @@ button {
 
 }
 
-.line18{
+.line18 {
 
   position: absolute;
   width: 210mm;
@@ -496,7 +511,7 @@ button {
 
 }
 
-.line19{
+.line19 {
 
   position: absolute;
   width: 210mm;
@@ -506,7 +521,7 @@ button {
 
 }
 
-.line20{
+.line20 {
 
   position: absolute;
   width: 210mm;
@@ -516,7 +531,7 @@ button {
 
 }
 
-.line21{
+.line21 {
 
   position: absolute;
   width: 150mm;
@@ -526,7 +541,7 @@ button {
 
 }
 
-.line22{
+.line22 {
 
   position: absolute;
   width: 2px;
@@ -536,7 +551,7 @@ button {
 
 }
 
-.line23{
+.line23 {
 
   position: absolute;
   width: 2px;
@@ -546,7 +561,7 @@ button {
 
 }
 
-.line24{
+.line24 {
 
   position: absolute;
   width: 210mm;
@@ -559,28 +574,28 @@ button {
 
 
 
-#pg3 h1{
-
-position: absolute;
-top: 2%;
-left: 45%;
-font-size: 74px;
-
-
-}
-
-#pg3 h2{
+#pg3 h1 {
 
   position: absolute;
-top: 29%;
-left: 33%;
-font-size: 40px;
-width: 400px;
+  top: 2%;
+  left: 45%;
+  font-size: 74px;
 
 
 }
 
-#img-1{
+#pg3 h2 {
+
+  position: absolute;
+  top: 29%;
+  left: 33%;
+  font-size: 40px;
+  width: 400px;
+
+
+}
+
+#img-1 {
 
   position: absolute;
   width: 280px;
@@ -590,17 +605,17 @@ width: 400px;
 
 }
 
-#img-2{
+#img-2 {
 
   position: absolute;
   width: 440px;
   height: 580px;
-  top:45.6%;
+  top: 45.6%;
   left: 42%;
 
 }
 
-#img-3{
+#img-3 {
 
   position: absolute;
   width: 280px;
@@ -610,7 +625,7 @@ width: 400px;
 
 }
 
-.line25{
+.line25 {
 
   position: absolute;
   width: 210mm;
@@ -620,7 +635,7 @@ width: 400px;
 
 }
 
-.line26{
+.line26 {
 
   position: absolute;
   width: 210mm;
@@ -630,7 +645,7 @@ width: 400px;
 
 }
 
-.line27{
+.line27 {
 
   position: absolute;
   width: 210mm;
@@ -640,7 +655,7 @@ width: 400px;
 
 }
 
-.line28{
+.line28 {
 
   position: absolute;
   width: 210mm;
@@ -650,7 +665,7 @@ width: 400px;
 
 }
 
-.line29{
+.line29 {
 
   position: absolute;
   width: 210mm;
@@ -660,7 +675,7 @@ width: 400px;
 
 }
 
-.line30{
+.line30 {
 
   position: absolute;
   width: 210mm;
@@ -672,7 +687,7 @@ width: 400px;
 
 
 
-.line31{
+.line31 {
 
   position: absolute;
   width: 2px;
@@ -683,7 +698,7 @@ width: 400px;
 }
 
 
-.line32{
+.line32 {
 
   position: absolute;
   width: 2px;
@@ -694,7 +709,7 @@ width: 400px;
 }
 
 
-.line33{
+.line33 {
 
   position: absolute;
   width: 2px;
@@ -704,7 +719,7 @@ width: 400px;
 
 }
 
-.line34{
+.line34 {
 
   position: absolute;
   width: 2px;
@@ -719,11 +734,11 @@ width: 400px;
 
 .box-video-pg4 {
   position: absolute;
-  top: 2%; 
+  top: 2%;
   left: 0%;
-  width: 774px; 
-  height: 348px; 
-  
+  width: 774px;
+  height: 348px;
+
 }
 
 #video-pg4 {
@@ -732,7 +747,7 @@ width: 400px;
   object-fit: cover;
 }
 
-#pg4 h1{
+#pg4 h1 {
 
   position: absolute;
   font-size: 36px;
@@ -743,7 +758,7 @@ width: 400px;
 
 }
 
-#pg4 h2{
+#pg4 h2 {
 
   position: absolute;
   font-size: 24px;
@@ -755,7 +770,7 @@ width: 400px;
 
 }
 
-.line36{
+.line36 {
   position: absolute;
   width: 210mm;
   height: 2px;
@@ -763,7 +778,7 @@ width: 400px;
   top: 2%;
 }
 
-.line37{
+.line37 {
   position: absolute;
   width: 210mm;
   height: 2px;
@@ -771,7 +786,7 @@ width: 400px;
   top: 33%;
 }
 
-.line38{
+.line38 {
   position: absolute;
   width: 210mm;
   height: 2px;
@@ -779,7 +794,7 @@ width: 400px;
   top: 58%;
 }
 
-.line39{
+.line39 {
   position: absolute;
   width: 210mm;
   height: 2px;
@@ -787,7 +802,7 @@ width: 400px;
   top: 66%;
 }
 
-.line40{
+.line40 {
   position: absolute;
   width: 210mm;
   height: 2px;
@@ -795,7 +810,7 @@ width: 400px;
   top: 98%;
 }
 
-.line41{
+.line41 {
   position: absolute;
   width: 2px;
   height: 297mm;
@@ -803,7 +818,7 @@ width: 400px;
   left: 98%;
 }
 
-.line42{
+.line42 {
   position: absolute;
   width: 2px;
   height: 67%;
@@ -812,7 +827,7 @@ width: 400px;
   top: 33%;
 }
 
-.line43{
+.line43 {
   position: absolute;
   width: 2px;
   height: 67%;
@@ -823,14 +838,15 @@ width: 400px;
 
 
 
-#pg5 h1{
+#pg5 h1 {
   position: absolute;
   font-size: 64px;
   top: 32.5%;
   left: 16%;
 }
-#pg5 h2{
-  position:absolute;
+
+#pg5 h2 {
+  position: absolute;
   font-size: 48px;
   top: 58%;
   left: 46%;
@@ -838,57 +854,43 @@ width: 400px;
   height: 162px;
 }
 
-#imagem-pg5 {
+
+
+#button-pg5 {
+
   position: absolute;
-  transition: opacity 0.2s ease-in-out;
-  opacity: 1;
   width: 380px;
   height: 600px;
+  top: 42%;
   left: 2%;
-  top: 45%;
-  background-repeat: no-repeat;
-  background-size: contain; /* Modificado aqui */
-  background-image: 
-  url('midia/pg5/img-produto1.jpeg')
-  url('midia/pg5/img-produto2.jpeg')
-  url('midia/pg5/img-produto3.jpeg')
-  url('midia/pg5/img-produto4.jpeg')
-  url('midia/pg5/img-produto5.jpeg')
-  url('midia/pg5/img-produto6.jpeg');
-
-}
-#button-pg5{
-
-position: absolute;
-width: 380px;
-height: 600px;
-top: 22%;
-left: 2%;
 
 }
 
-.produto-img{
+.produto-img {
 
   width: 380px;
   height: 600px;
-  background-image: url("midia/pg5/img-produto6.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-image: url('midia/pg5/img-produto6.jpg');
+
 
 }
 
-#pg5 button{
-  
-  
+
+
+#pg5 button {
+
+
   width: 50px;
   height: 50px;
-  top: 75%;
-  
-  
+  top: 50%;
+
+
 }
 
-.button-pg5-d{
-  
+.buttomd-1 {
+
   position: relative;
   width: 50px;
   height: 50px;
@@ -901,7 +903,7 @@ left: 2%;
 
 }
 
-#button-pg5-e{
+.buttome-1 {
 
   position: relative;
   width: 50px;
@@ -912,88 +914,126 @@ left: 2%;
   background-image: url('midia/pg5/buttom\(1\).png');
   background-repeat: no-repeat;
   background-size: contain;
- 
 
- 
+
+
 }
 
 #img-top-pg5{
-position: absolute;
-top: 2%;
-background-image: url('midia/pg5/img-top-pg5.png');
-background-repeat: no-repeat;
+  position: absolute;
+  top: 2%;
+  width: 794px;
+  height:  380px;
   background-size: contain;
-width: 794px;
-height: 380px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+#pg5 h3{
+  top: -5%;
+  left: 10%;
+  filter: drop-shadow(10px 4px 4px #000);
+}
+
+.buttomd-2 {
+
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 80%;
+  background: #00420b;
+  background-image: url('midia/pg5/buttom.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.buttome-2 {
+
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 2%;
+  background: #00420b;
+  background-image: url('midia/pg5/buttom\(1\).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
 
 
 }
 
-.line44{
-  
+
+
+.line44 {
+
   position: absolute;
   width: 210mm;
   height: 2px;
   top: 98%;
-  background:#fff;
+  background: #fff;
 
 }
 
-.line45{
-  
+.line45 {
+
   position: absolute;
   width: 210mm;
   height: 2px;
   top: 45%;
-  background:#fff;
+  background: #fff;
 
 }
 
 
-.line47{
-  
+.line47 {
+
   position: absolute;
   width: 2px;
   height: 56%;
   left: 50%;
   top: 45%;
-  background:#fff;
+  background: #fff;
 
 }
 
-.line46{
-  
+.line46 {
+
   position: absolute;
   width: 2px;
   height: 297mm;
   left: 2%;
-  background:#fff;
+  background: #fff;
 
 }
 
 
-.line48{
-  
+.line48 {
+
   position: absolute;
   width: 2px;
   height: 297mm;
   left: 98%;
-  background:#fff;
+  background: #fff;
 
 }
 
 
 
-#fim h1{
+#fim h1 {
 
-position: absolute;
-font-size: 48px;
-top: 4%;
-left: 10%;
-border: 2px solid #fff;
-margin: 10px;
-padding: 20px;
-  
+  position: absolute;
+  font-size: 48px;
+  top: 4%;
+  left: 10%;
+  border: 2px solid #fff;
+  margin: 10px;
+  padding: 20px;
+
 }
 
 #fim h2 {
@@ -1009,7 +1049,7 @@ padding: 20px;
 
 }
 
-#fim h3{
+#fim h3 {
   border: 2px solid #fff;
   padding: 20px;
   position: absolute;
@@ -1021,7 +1061,7 @@ padding: 20px;
 }
 
 
-.fundo{
+.fundo {
   position: relative;
   background: #D7FFD3;
   width: 397px;
@@ -1036,19 +1076,19 @@ padding: 20px;
 
 .fundo img {
 
-  
+
   background-size: contain;
   background-repeat: no-repeat;
   height: 120px;
   width: 120px;
   margin-left: 50px;
   margin-top: 25px;
- 
-  
+
+
 
 }
 
-#icon-zap{
+#icon-zap {
 
   position: absolute;
   border-radius: 50%;
@@ -1057,7 +1097,7 @@ padding: 20px;
 
 }
 
-.line52{
+.line52 {
   position: absolute;
   width: 392px;
   height: 2px;
@@ -1065,7 +1105,7 @@ padding: 20px;
   top: 16%;
 }
 
-.line51{
+.line51 {
   position: absolute;
   width: 390px;
   height: 2px;
@@ -1075,7 +1115,7 @@ padding: 20px;
 }
 
 
-.line54{
+.line54 {
   position: absolute;
   width: 2px;
   height: 297mm;
@@ -1083,5 +1123,3 @@ padding: 20px;
   background: #fff;
   left: 50%;
 }
-
-
