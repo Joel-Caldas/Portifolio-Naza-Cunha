@@ -111,3 +111,22 @@ function transicaoImagemCertificados(direcao) {
   }, 1000);
 }
 
+document.getElementById('Portfolio').addEventListener('touchstart', function(e) {
+  startX = e.touches[0].clientX;
+  startTime = new Date().getTime();
+});
+
+document.getElementById('Portfolio').addEventListener('touchend', function(e) {
+  var endX = e.changedTouches[0].clientX;
+  var endTime = new Date().getTime();
+  var distance = Math.abs(endX - startX);
+  var time = endTime - startTime;
+  var speed = distance / time;
+  if (distance > 50 && speed > 0.5) {
+    if (startX > endX) {
+      navigateTo('next');
+    } else {
+      navigateTo('prev');
+    }
+  }
+});
